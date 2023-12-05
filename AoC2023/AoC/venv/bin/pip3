@@ -1,4 +1,4 @@
-#!/home/frhe/projects/test_map/AoC/venv/bin/python
+#!/home/frhe/projects/test_map/AdventOfCode/AoC2023/AoC/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
