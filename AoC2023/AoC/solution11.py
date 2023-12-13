@@ -7,6 +7,7 @@ line_counter = 0
 def manhattan(a, b):
     return sum(abs(val1-val2) for val1, val2 in zip(a,b))
 
+
 while True:
     line = file.readline()
     if not line:

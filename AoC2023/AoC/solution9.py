@@ -9,7 +9,9 @@ while True:
     line = file.readline()
     if not line:
         break
-    
+    pattern = r"[.#]+"
+
+matches = re.findall("[.#]+", text)
     initial_list = [(list(map(int, re.findall("-?\d+",line))))]
     print(initial_list)
     continiue_to_run = True

@@ -16,7 +16,7 @@ while True:
     else:
         letter_dict.update({line[0:3]:[line[7:10],line[12:15]]})
 
-current_letters = "MQF"
+current_letters = "AAA"
 counter = 0
 zzz_not_found = True
 while zzz_not_found:
